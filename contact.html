@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link href="C:\Users\AASTHA\Desktop\New folder (4)\henna.css" rel="stylesheet">
+    <link rel="stylesheet" href="henna.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="Henna logo 2.png" alt="hennalogo">
+            </div>
+            <div>
+                <ul id="nav-menu">
+                    <li><a href="index.html"> Home</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html"> Contact</a></li>
+                    <li><a href="artwork.html">Artwork</a></li>
+                    <li><a href="ahout me.html">FAQ</a></li>
+                    <li><a href="testimonials.html">Testimonials</a></li>
+                </ul>
+            </div>
+            <div class="hamburger" onclick="toggleMenu()"><img src="icon hambger.png" alt="icon" height="30px"
+                    width="35px" style="color: #5D4E37;"></div>
+        </nav>
+    </header>
+    <section id="contact">
+        <div class="hero-content">
+            <h2>Contact</h2>
+            <form class="contact1">
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>Frist Name:</td>
+                            <td><input type="text" name="txtname" placeholder="Enter Your Frist Name" required></td>
+                        </tr>
+                        <tr>
+                            <td>Last Name:</td>
+                            <td><input type="text" name="txtlname" placeholder="Enter Your last Name" required></td>
+                        </tr>
+                        <tr>
+                            <td> Date of event: </td>
+                            <td><input type="date" name="textdate" required></td>
+                        </tr>
+                        <tr>
+                            <td>Mobile No :</td>
+                            <td><input type="number" name="txtnumber" placeholder="Enter Your Mobile no" required
+                                    pattern="[0-9]{10}"></td>
+                        </tr>
+                        <tr>
+                            <td>Email :</td>
+                            <td><input type="Email" name="txtEmail" placeholder="Enter Your Email" required></td>
+                        </tr>
+                        <tr>
+                            <td>event location (Town, State, Venue, Residential, Etc.):</td>
+                            <td><input type="text" name="txt" placeholder="location" required></td>
+                        </tr>
+                        <tr>
+                            <td>Service Type:</td>
+                            <td>
+                                <select name="Course" id="C">
+                                    <option value="a">Bridal Henna</option>
+                                    <option value="b">Groom side of family</option>
+                                    <option value="c">Party</option>
+                                    <option value="d">Private appointment</option>
+                                    <option value="e">EID Henna</option>
+                                    <option value="f">Corporate event</option>
+                                    <option value="g">Jagua Henna</option>
+                                    <option value="h">wood-Burning Art order</option>
+                                    <option value="i">other</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Number of People Being Serviced (*Or Simply Note "Family"):</td>
+                            <td> <input type="text" name="txt" placeholder="Family members" required> </td>
+                        </tr>
+                        <tr>
+                            <td>Comment :</td>
+                            <td><textarea></textarea></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <h2>Let's contact</h2>
+        <form class="footers">
+            <table class="footers">
+                <tr>
+                    <td>address</td>
+                    <td>telephone</td>
+                    <td>Email</td>
+                </tr>
+                <tr>
+                    <td>00 Patriot Walk</td>
+                    <td>609-513-1703 </td>
+                    <td>ashlesha628@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Egg Harbor </td>
+                </tr>
+                <tr>
+                    <td>Township NJ</td>
+                </tr>
+                <tr>
+                    <td> 08234</td>
+                </tr>
+            </table>
+        </form>
+    </footer>
+    <footer class="footers2">
+        <div style="text-align: center;">
+            <a href="https://www.facebook.com/hennabyashnj" target="_blank">
+                <img src="facebook.png" alt="facebook" height="25px" width="25px">
+            </a>
+            <a href="https://www.instagram.com/henna_by_ash_nj/" target="_blank">
+                <img src="insta.png" alt="instagram" height="25px" width="25px">
+            </a>
+        </div>
+        <p style="text-align: center;">&copy; 2023 Henna by Ash NJ. All rights reserved.</p>
+    </footer>
+</body>
+
+
+</html>
